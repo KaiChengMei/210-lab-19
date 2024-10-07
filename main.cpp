@@ -1,3 +1,5 @@
+// COMSC-210 | Lab 19 | Kai-Cheng Mei
+
 #include <iostream>
 #include <fstream>
 #include <vector>
@@ -7,7 +9,7 @@
 using namespace std;
 
 struct ReviewNode {
-    
+
     double rating;
     string comment;
     ReviewNode *next;
